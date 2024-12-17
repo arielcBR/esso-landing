@@ -1,10 +1,10 @@
 import { v4 as uuidv4 } from "uuid";
 import { BenefitItem } from "../components/BenefitItem";
-import robotImage from "../assets/images/robo.jpg";
-import meetingImage from "../assets/images/meeting.jpg";
-import cad from "../assets/images/cad-worker.jpeg";
-import renderedMachine from "../assets/images/rendered-machine.jpeg";
-import simulationStress from "../assets/images/simulation-stress.jpeg";
+import robotImage from "/images/robo.jpg";
+import meetingImage from "/images/meeting.jpg";
+import cad from "/images/cad-worker.jpeg";
+import renderedMachine from "/images/rendered-machine.jpeg";
+import simulationStress from "/images/simulation-stress.jpeg";
 
 export function BusinessAdvantages() {
   return (
@@ -81,7 +81,11 @@ export function BusinessAdvantages() {
             src={renderedMachine}
             alt=""
           />
-          <img className="self-end rounded-3xl w-56 mt-[-2rem]" src={simulationStress} alt="" />
+          <img
+            className="self-end rounded-3xl w-56 mt-[-2rem]"
+            src={simulationStress}
+            alt=""
+          />
         </div>
       </div>
     </section>

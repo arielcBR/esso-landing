@@ -1,9 +1,9 @@
 import { DifferentialCard } from "./DifferentialCard";
 
-import paymentAvatar from "../assets/images/payment-avatar.png";
-import approachAvatar from "../assets/images/approach-avatar.png";
-import safetyAvatar from "../assets/images/safety-avatar.png";
-import colaborativeAvatar from "../assets/images/colaborative-avatar.png";
+import paymentAvatar from "/images/payment-avatar.png";
+import approachAvatar from "/images/approach-avatar.png";
+import safetyAvatar from "/images/safety-avatar.png";
+import colaborativeAvatar from "/images/colaborative-avatar.png";
 
 export function OurDifferentials() {
   return (

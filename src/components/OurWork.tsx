@@ -1,7 +1,7 @@
 import { PreviousProjectCard } from "./PreviousProjectCard";
-import tornoImage from "../assets/images/tornoImage.jpeg";
-import calandraImage from "../assets/images/calandraImage.jpeg";
-import CNCImage from "../assets/images/CNCImage.jpeg";
+import tornoImage from "/images/tornoImage.jpeg";
+import calandraImage from "/images/calandraImage.jpeg";
+import CNCImage from "/images/CNCImage.jpeg";
 
 export function OurWork() {
   return (
@@ -10,9 +10,21 @@ export function OurWork() {
         Nosso trabalho
       </h5>
       <div className="flex flex-col items-center gap-8">
-        <PreviousProjectCard image={tornoImage} title="Torno Mecânico Adequado à NR12" description="Adequação completa às normas de segurança, garantindo operações seguras e eficientes." />
-        <PreviousProjectCard image={calandraImage} title="Calandra CNC Adequada à NR12" description="Conformidade total com as normas de segurança, promovendo trabalho seguro e preciso." />
-        <PreviousProjectCard image={CNCImage} title="Centro de Usinagem com Adequação à NR12 e Retrofit" description="Atualização para equipamentos modernos, assegurando conformidade e eficiência operacional." />
+        <PreviousProjectCard
+          image={tornoImage}
+          title="Torno Mecânico Adequado à NR12"
+          description="Adequação completa às normas de segurança, garantindo operações seguras e eficientes."
+        />
+        <PreviousProjectCard
+          image={calandraImage}
+          title="Calandra CNC Adequada à NR12"
+          description="Conformidade total com as normas de segurança, promovendo trabalho seguro e preciso."
+        />
+        <PreviousProjectCard
+          image={CNCImage}
+          title="Centro de Usinagem com Adequação à NR12 e Retrofit"
+          description="Atualização para equipamentos modernos, assegurando conformidade e eficiência operacional."
+        />
       </div>
     </section>
   );

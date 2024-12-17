@@ -1,4 +1,4 @@
-import aboutUsImage from '../assets/images/aboutUs-image.jpg';
+import aboutUsImage from "/images/aboutUs-image.jpg";
 
 export function AboutUs() {
   return (
@@ -16,7 +16,11 @@ export function AboutUs() {
       <p className="text-white font-bold text-sm text-center">
         CREA/RS n° 262810
       </p>
-      <img className='rounded-md w-full' src={aboutUsImage} alt="sala de máquinas com dois gerador gigantes ao centro" />
+      <img
+        className="rounded-md w-full"
+        src={aboutUsImage}
+        alt="sala de máquinas com dois gerador gigantes ao centro"
+      />
     </section>
   );
 }

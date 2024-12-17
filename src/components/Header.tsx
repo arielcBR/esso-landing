@@ -1,5 +1,5 @@
 import { List } from "@phosphor-icons/react";
-import logo from "../assets/images/logo.svg";
+import logo from "/images/logo.svg";
 
 export function Header() {
   return (
