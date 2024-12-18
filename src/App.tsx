@@ -1,5 +1,6 @@
 import { AboutUs } from "./components/AboutUs";
 import { BusinessAdvantages } from "./components/BusinessAdvantages";
+import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { OurDifferentials } from "./components/OurDifferentials";
 import { OurPartners } from "./components/OurPartners";
@@ -14,6 +15,7 @@ export function App() {
       <OurDifferentials />
       <OurWork />
       <OurPartners />
+      <Footer />
     </div>
   );
 }

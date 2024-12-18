@@ -8,7 +8,7 @@ import simulationStress from "/images/simulation-stress.jpeg";
 
 export function BusinessAdvantages() {
   return (
-    <section className="container flex flex-col gap-5">
+    <section className="container flex flex-col gap-5 py-4">
       <div className="flex flex-col gap-8">
         <BenefitItem
           key={uuidv4()}

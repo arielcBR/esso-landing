@@ -5,7 +5,7 @@ import { Header } from "./Header";
 export function Hero() {
   return (
     <section
-      className="container bg-cover h-screen"
+      className="container bg-cover h-screen py-4"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       <Header />
@@ -15,8 +15,8 @@ export function Hero() {
           Soluções eficientes em segurança do trabalho para a indústria 4.0
         </h2>
         <div className="flex gap-6 items-center justify-center">
-          <Button text="Conheça mais" variant="primary" />
-          <Button text="Fale conosco" variant="secondary" />
+          <Button to="#about" text="Conheça mais" variant="primary" />
+          <Button to="https://wa.me/+5551992047216?text=Ola!%20Gostaria%20de%20mais%20informações" target="_blank" text="Fale conosco" variant="secondary" />
         </div>
       </div>
     </section>

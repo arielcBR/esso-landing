@@ -2,7 +2,7 @@ import aboutUsImage from "/images/aboutUs-image.jpg";
 
 export function AboutUs() {
   return (
-    <section className="container flex flex-col justify-around gap-4">
+    <section id="about" className="container flex flex-col justify-around gap-4 py-4">
       <h3 className="text-white font-bold text-2xl text-center w-full">
         Sobre nós
       </h3>
