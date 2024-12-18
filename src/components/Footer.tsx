@@ -100,34 +100,38 @@ export function Footer() {
         <h5 className="text-xl font-bold text-center text-white">
           Acesso Rápido
         </h5>
-        <a
-          href="#"
-          target="_blank"
-          className="flex justify-center items-center gap-2 text-white text-md"
-        >
-          Sobre
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          className="flex justify-center items-center gap-2 text-white text-md"
-        >
-          Serviços
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          className="flex justify-center items-center gap-2 text-white text-md"
-        >
-          Porque a Esso?
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          className="flex justify-center items-center gap-2 text-white text-md"
-        >
-          Nosso Trabalho
-        </a>
+        <nav className="flex flex-col items-center gap-4">
+          <a
+            href="#about"
+            className="flex justify-center items-center gap-2 text-white text-md"
+          >
+            Sobre a empresa
+          </a>
+          <a
+            href="#BusinessAdvantages"
+            className="flex justify-center items-center gap-2 text-white text-md"
+          >
+            Diferenciais Competitivos
+          </a>
+          <a
+            href="#WhyUs"
+            className="flex justify-center items-center gap-2 text-white text-md"
+          >
+            Por que escolher-nos
+          </a>
+          <a
+            href="#OurWork"
+            className="flex justify-center items-center gap-2 text-white text-md"
+          >
+            Nosso trabalho
+          </a>
+          <a
+            href="#Partners"
+            className="flex justify-center items-center gap-2 text-white text-md"
+          >
+            Parceiros
+          </a>
+        </nav>
       </div>
 
       <div className="flex flex-col items-center justify-center py-2 border-t border-white w-full">

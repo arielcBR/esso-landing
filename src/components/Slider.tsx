@@ -55,7 +55,7 @@ export function Slider() {
               justifyContent: "center",
             }}
           >
-            <img className="w-48" src={item.pathImage} alt="" />
+            <img className="w-48 max-h-16" src={item.pathImage} alt="" />
           </SwiperSlide>
         ))}
       </Swiper>

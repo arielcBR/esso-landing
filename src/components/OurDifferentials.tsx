@@ -7,7 +7,7 @@ import colaborativeAvatar from "/images/colaborative-avatar.png";
 
 export function OurDifferentials() {
   return (
-    <section className=" container flex flex-col gap-5 bg-white py-6">
+    <section id="WhyUs" className=" container flex flex-col gap-5 bg-white py-6">
       <h5 className="text-center text-black text-xl font-bold text">
         Porque a ESSO?
       </h5>
