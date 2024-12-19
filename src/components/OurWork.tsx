@@ -5,8 +5,11 @@ import CNCImage from "/images/CNCImage.jpeg";
 
 export function OurWork() {
   return (
-    <section id="OurWork" className="container flex flex-col gap-4 py-4">
-      <h5 className="text-center text-white text-xl font-bold text mb-3">
+    <section
+      id="OurWork"
+      className="container flex flex-col gap-4 py-4 md:gap-10 md:py-12"
+    >
+      <h5 className="text-center text-white text-xl font-bold text mb-3 md:text-3xl">
         Nosso trabalho
       </h5>
       <div className="flex flex-col items-center gap-8">

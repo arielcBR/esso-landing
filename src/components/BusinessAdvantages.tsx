@@ -8,7 +8,13 @@ import simulationStress from "/images/simulation-stress.jpeg";
 
 export function BusinessAdvantages() {
   return (
-    <section id="BusinessAdvantages" className="container flex flex-col gap-5 py-4">
+    <section
+      id="BusinessAdvantages"
+      className="container flex flex-col gap-5 py-4 text-white md:py-12"
+    >
+      <h3 className="font-bold text-2xl text-center w-full md:text-3xl">
+        Serviços oferecidos
+      </h3>
       <div className="flex flex-col gap-8">
         <BenefitItem
           key={uuidv4()}
@@ -39,9 +45,13 @@ export function BusinessAdvantages() {
       </div>
 
       <div className="flex flex-col">
-        <img className="self-end rounded-3xl w-56" src={robotImage} alt="" />
         <img
-          className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem]"
+          className="self-end rounded-3xl w-56 md:w-96"
+          src={robotImage}
+          alt=""
+        />
+        <img
+          className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem] md:w-96"
           src={meetingImage}
           alt=""
         />
@@ -75,14 +85,14 @@ export function BusinessAdvantages() {
           </li>
         </ul>
         <div className="flex flex-col mb-4">
-          <img className="self-end rounded-3xl w-56" src={cad} alt="" />
+          <img className="self-end rounded-3xl w-56 md:w-96" src={cad} alt="" />
           <img
-            className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem] z-10"
+            className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem] z-10 md:w-96"
             src={renderedMachine}
             alt=""
           />
           <img
-            className="self-end rounded-3xl w-56 mt-[-2rem]"
+            className="self-end rounded-3xl w-56 mt-[-2rem] md:w-96"
             src={simulationStress}
             alt=""
           />

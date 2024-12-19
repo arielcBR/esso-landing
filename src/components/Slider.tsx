@@ -28,12 +28,8 @@ export function Slider() {
             slidesPerView: 1,
             spaceBetween: 10,
           },
-          [parseInt(DEVICE_BREAKPOINT.SM)]: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
           [parseInt(DEVICE_BREAKPOINT.MD)]: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 40,
           },
           [parseInt(DEVICE_BREAKPOINT.LG)]: {
@@ -55,7 +51,7 @@ export function Slider() {
               justifyContent: "center",
             }}
           >
-            <img className="w-48 max-h-16" src={item.pathImage} alt="" />
+            <img className="w-48 max-h-16 md:w-62 md:h-60" src={item.pathImage} alt="" />
           </SwiperSlide>
         ))}
       </Swiper>

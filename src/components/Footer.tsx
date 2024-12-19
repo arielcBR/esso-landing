@@ -12,8 +12,8 @@ import logo from "/images/logo.svg";
 
 export function Footer() {
   return (
-    <footer className="container flex flex-col items-center gap-12">
-      <div className="flex flex-col items-center gap-4">
+    <footer className="container grid grid-cols-1 gap-12 md:grid-cols-[50%_50%] md:gap-x-8 md:pt-12">
+      <div className="flex flex-col items-center gap-4 w-full">
         <div className="flex items-center gap-5">
           <img src={logo} alt="logo esso" />
           <h5 className="font-bold text-white text-xl">Esso Solutions</h5>
@@ -44,7 +44,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 w-full">
         <h5 className="text-xl font-bold text-center text-white">
           Onde estamos
         </h5>
@@ -66,7 +66,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 w-full">
         <h5 className="text-xl font-bold text-center text-white">Contato</h5>
         <a
           href="https://wa.me/+5551992047216?text=Ola!%20Gostaria%20de%20mais%20informações"
@@ -96,7 +96,7 @@ export function Footer() {
         </a>
       </div>
 
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 w-full">
         <h5 className="text-xl font-bold text-center text-white">
           Acesso Rápido
         </h5>
@@ -134,7 +134,7 @@ export function Footer() {
         </nav>
       </div>
 
-      <div className="flex flex-col items-center justify-center py-2 border-t border-white w-full">
+      <div className="flex flex-col items-center justify-center py-2 border-t border-white w-full md:col-span-full">
         <p className="text-xs text-center text-white">
           Esso solutions ©Copyright 2024. All rights reserved.
         </p>

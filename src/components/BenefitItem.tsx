@@ -12,8 +12,8 @@ export function BenefitItem({ title, description, numberItem }: BenefitItemProps
           {numberItem}
         </div>
       </div>
-      <h4 className="text-white text-xl font-bold">{title}</h4>
-      <p className="text-slate-200 text-md text-justify">{description}</p>
+      <h4 className="text-white text-xl font-bold md:text-2xl">{title}</h4>
+      <p className="text-slate-200 text-justify">{description}</p>
     </div>
   );
 }
