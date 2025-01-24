@@ -21,14 +21,14 @@ export function Header() {
       <header className="hidden md:flex justify-between items-center text-white">
         <div className="flex items-center gap-2">
           <img className="w-10 h-10" src={logo} alt="" />
-          <p className="text-sm ">ESSO</p>
+          <p className="text-sm xl:text-sm">ESSO</p>
         </div>
         <nav>
-          <ul className="flex items-center justify-between gap-6">
+          <ul className="flex items-center justify-between gap-6 xl:text-xl">
             <li className="hover:text-slate-200 hover:border-b hover:scale-105"><a href="#about">Sobre</a></li>
-            <li className="hover:text-slate-200 hover:border-b hover:scale-105"><a href="#about">Serviços</a></li>
-            <li className="hover:text-slate-200 hover:border-b hover:scale-105"><a href="#about">Projetos</a></li>
-            <li className="hover:text-slate-200 hover:border-b hover:scale-105"><a href="#about">Contato</a></li>
+            <li className="hover:text-slate-200 hover:border-b hover:scale-105"><a href="#BusinessAdvantages">Serviços</a></li>
+            <li className="hover:text-slate-200 hover:border-b hover:scale-105"><a href="#OurWork">Projetos</a></li>
+            <li className="hover:text-slate-200 hover:border-b hover:scale-105"><a href="#contato">Contato</a></li>
           </ul>
         </nav>
       </header>

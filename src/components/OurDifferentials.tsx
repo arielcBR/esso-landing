@@ -14,12 +14,12 @@ export function OurDifferentials() {
       <h5 className="text-center text-black text-xl font-bold text md:text-3xl">
         Porque a ESSO?
       </h5>
-      <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:flex-wrap">
+      <div className="grid gap-8 grid-cols-1 place-items-center md:grid-cols-2">
         <DifferentialCard
           image={paymentAvatar}
           title="Condições de pagamento"
           description="Opções de pagamento via cronograma em até 48x para facilitar a
-        contratação de nossos serviços."
+    contratação de nossos serviços."
         />
         <DifferentialCard
           image={approachAvatar}

@@ -22,6 +22,7 @@ export function OurWork() {
           image={calandraImage}
           title="Calandra CNC Adequada à NR12"
           description="Conformidade total com as normas de segurança, promovendo trabalho seguro e preciso."
+          reverse
         />
         <PreviousProjectCard
           image={CNCImage}

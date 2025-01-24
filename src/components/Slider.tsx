@@ -8,7 +8,7 @@ import { partnersImages } from "../data/partnersImages";
 
 export function Slider() {
   return (
-    <div className="relative">
+    <div className="relative xl:py-16">
       <Swiper
         modules={[Navigation, A11y, Autoplay]}
         navigation
@@ -51,7 +51,7 @@ export function Slider() {
               justifyContent: "center",
             }}
           >
-            <img className="w-48 max-h-16 md:w-62 md:h-60" src={item.pathImage} alt="" />
+            <img className="w-48 max-h-16 md:w-62 md:h-60 xl:w-64 xl:h-80" src={item.pathImage} alt="" />
           </SwiperSlide>
         ))}
       </Swiper>
