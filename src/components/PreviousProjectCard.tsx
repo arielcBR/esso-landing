@@ -25,7 +25,7 @@ export function PreviousProjectCard({
           {description}
         </p>
       </div>
-      <img className="rounded-3xl w-full xl:w-1/2" src={image} alt="" />
+      <img className="rounded-3xl w-full xl:w-1/3" src={image} alt="" />
     </div>
   );
 }
