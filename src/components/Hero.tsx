@@ -5,7 +5,7 @@ import { Header } from "./Header";
 export function Hero() {
   return (
     <section
-      className="container bg-cover h-screen text-white py-4 md:py-8 xl:py-14"
+      className="padding-y bg-cover h-screen text-white w-f py-4 md:py-8 xl:py-14"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       <Header />

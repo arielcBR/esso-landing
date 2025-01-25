@@ -12,10 +12,10 @@ export function App() {
   const { menuVisible } = useMenu();
 
   return (
-    <div className="bg-emerald-900 w-full space-y-4">
+    <div className="bg-emerald-900 w-full min-h-screen">
       {menuVisible && <MenuMobile />}
       {!menuVisible && (
-        <>
+        <div className="w-full space-y-4">
           <Hero />
           <AboutUs />
           <BusinessAdvantages />
@@ -23,7 +23,7 @@ export function App() {
           <OurWork />
           <OurPartners />
           <Footer />
-        </>
+        </div>
       )}
     </div>
   );

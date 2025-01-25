@@ -12,7 +12,7 @@ import logo from "/images/logo.svg";
 
 export function Footer() {
   return (
-    <footer className="container">
+    <footer className="padding-y">
       <div className="grid grid-cols-1 gap-12 py-6 md:grid-cols-[50%_50%] md:gap-x-8 md:pt-12 lg:grid-cols-[60%_40%] xl:grid-cols-[auto_auto_auto] xl:py-16">
         <div className="flex flex-col items-center gap-4 w-full lg:items-start">
           <div className="flex items-center gap-5">

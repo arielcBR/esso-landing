@@ -10,27 +10,18 @@ export function MenuMobile() {
 
   return (
     <div className="absolute inset-0 z-[10000] flex flex-col h-screen w-full bg-emerald-900 text-white">
-      <header className="container flex items-baseline gap-4 border-b border-white py-4">
+      <header className="padding-y flex items-baseline gap-4 border-b border-white py-4">
         <div className="flex items-center gap-4 w-full">
-          <X
-            onClick={handleCloseMenu}
-            className="cursor-pointer h-6 w-6"
-          />
+          <X onClick={handleCloseMenu} className="cursor-pointer h-6 w-6" />
           <span className="text-2xl font-bold">Menu</span>
         </div>
       </header>
 
-      <main className="container flex-grow bg-emerald-900 pt-4">
+      <main className="padding-y flex-grow bg-emerald-900 pt-4">
         <nav>
-          <ul
-            className="flex flex-col gap-1"
-            onClick={handleCloseMenu}
-          >
+          <ul className="flex flex-col gap-1" onClick={handleCloseMenu}>
             <li className="flex py-2">
-              <a
-                href="#about"
-                className="capitalize text-lg text-white"
-              >
+              <a href="#about" className="capitalize text-lg text-white">
                 Sobre a empresa
               </a>
             </li>
@@ -43,26 +34,17 @@ export function MenuMobile() {
               </a>
             </li>
             <li className="flex py-2">
-              <a
-                href="#WhyUs"
-                className="capitalize text-lg text-white"
-              >
+              <a href="#WhyUs" className="capitalize text-lg text-white">
                 Por que escolher-nos
               </a>
             </li>
             <li className="flex py-2">
-              <a
-                href="#OurWork"
-                className="capitalize text-lg text-white"
-              >
+              <a href="#OurWork" className="capitalize text-lg text-white">
                 Nosso trabalho
               </a>
             </li>
             <li className="flex py-2">
-              <a
-                href="#Partners"
-                className="text-lg text-white"
-              >
+              <a href="#Partners" className="text-lg text-white">
                 Parceiros
               </a>
             </li>

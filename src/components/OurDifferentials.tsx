@@ -9,12 +9,12 @@ export function OurDifferentials() {
   return (
     <section
       id="WhyUs"
-      className=" container flex flex-col gap-5 bg-white py-6 md:gap-10 md:py-12"
+      className=" padding-y flex flex-col gap-5 bg-white py-6 md:gap-10 md:py-12"
     >
       <h5 className="text-center text-black text-xl font-bold text md:text-3xl">
         Porque a ESSO?
       </h5>
-      <div className="grid gap-8 grid-cols-1 place-items-center md:grid-cols-2">
+      <div className="grid gap-8 grid-cols-1 place-items-center items-stretch md:grid-cols-2 xl:grid-cols-4">
         <DifferentialCard
           image={paymentAvatar}
           title="Condições de pagamento"

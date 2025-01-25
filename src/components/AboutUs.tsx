@@ -4,7 +4,7 @@ export function AboutUs() {
   return (
     <section
       id="about"
-      className="container flex flex-col justify-around gap-4 py-4 text-white md:py-12 xl:flex-row-reverse xl:gap-16"
+      className="padding-y flex flex-col justify-around gap-4 py-4 text-white md:py-12 xl:flex-row-reverse xl:gap-16"
     >
       <div className="flex flex-col justify-around gap-4 py-4">
         <h3 className="font-bold text-2xl text-center w-full md:text-3xl xl:text-start">

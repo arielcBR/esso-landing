@@ -10,7 +10,7 @@ export function BusinessAdvantages() {
   return (
     <section
       id="BusinessAdvantages"
-      className="container flex flex-col gap-5 py-4 text-white md:py-12"
+      className="padding-y flex flex-col gap-5 py-4 text-white md:py-12 xl:gap-16"
     >
       <h3 className="font-bold text-2xl text-center w-full md:text-3xl xl:mb-6">
         Serviços oferecidos
@@ -48,12 +48,12 @@ export function BusinessAdvantages() {
 
         <div className="flex flex-col w-full xl:items-center xl:justify-center">
           <img
-            className="self-end rounded-3xl w-56 md:w-96"
+            className="self-end rounded-3xl w-56 md:w-96 xl:w-2/3"
             src={robotImage}
             alt=""
           />
           <img
-            className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem] md:w-96"
+            className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem] md:w-96 xl:w-2/3"
             src={meetingImage}
             alt=""
           />
@@ -91,14 +91,14 @@ export function BusinessAdvantages() {
         </div>
 
         <div className="flex flex-col mb-4 xl:w-full">
-          <img className="self-end rounded-3xl w-56 md:w-96 xl:" src={cad} alt="" />
+          <img className="self-end rounded-3xl w-56 md:w-96 xl:w-3/5" src={cad} alt="" />
           <img
-            className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem] z-10 md:w-96"
+            className="self-start rounded-3xl w-56 border-4 border-white mt-[-2rem] z-10 md:w-96 xl:w-3/5"
             src={renderedMachine}
             alt=""
           />
           <img
-            className="self-end rounded-3xl w-56 mt-[-2rem] md:w-96"
+            className="self-end rounded-3xl w-56 mt-[-2rem] md:w-96 xl:w-3/5"
             src={simulationStress}
             alt=""
           />
